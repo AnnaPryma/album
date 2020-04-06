@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+header {
+  background-color: darkslategrey;
+  color: white;
+  font-size: 20px;
+  padding-left: 8%;
+  padding-right: 8%;
+  height: 50px;
+  padding-top: 20px;
+}
+.bar i {
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  font-size: 20px;
+}
+header div {
+  margin: 0 auto;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.logo {
+  float: left;
+}
+.bar {
+  float: right;
+}
+main {
+  padding-top: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+h1 {
+  text-align: center;
+  font-weight: 100;
+}
+main p {
+  color: grey;
+  text-align: center;
+  display: block;
+  margin: 0 10%;
+  margin-bottom: 30px;
+}
+.buttons-top input[type="button"] {
+  color: white;
+  background-color: darkslategrey;
+  border: none;
+  height: 40px;
+  width: 180px;
+  font-size: 18px;
+  margin: 0 10px;
+}
+input[type="button"]:hover {
+  background-color: blue;
+}
+.buttons-top {
+  display: flex;
+  padding-left: 35%;
+  padding-right: 35%;
+  justify-content: space-between;
+}
+.card {
+  width: 300px;
+  margin-top: 100px;
+  border: 1px solid lightgrey;
+}
+.card p {
+  margin: 20px;
+  text-align: justify;
+  color: black;
+  line-height: 20px;
+}
+.card_footer {
+  box-sizing: border-box;
+  margin: 20px;
+}
+.card_footer input[type="button"]:first-child {
+  float: left;
+  box-sizing: border-box;
+}
+.card_footer input[type="button"]:nth-child(2n) {
+  float: left;
+  box-sizing: border-box;
+}
+.card_footer span {
+  display: block;
+  float: right;
+}
+.cards_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer {
+  margin-top: 50px;
+
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.text {
+  float: left;
+}
+footer a {
+  float: right;
+  padding-top: 20px;
+}
